@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 iris = load_iris()
-X, y = iris.data, iris.target  # (150, 4), (150,)
+X, y = iris.data, iris.target 
 
 scaler = StandardScaler()
 X = scaler.fit_transform(X)
