@@ -80,7 +80,7 @@ python3 test.py
 ---
 
 ## 모델 구조
-입력층 (4) → Linear(4→16) → ReLU → Linear(16→3) → 출력층 (3)
+입력층 (4) → Linear(4→8) → ReLU → Linear(8→16) → ReLU → Linear(16→3) → 출력층 (3)
 - 입력: Iris 4개 특성 (꽃받침 길이/너비, 꽃잎 길이/너비)
 - 출력: 3개 클래스 (Setosa, Versicolor, Virginica)
 - 테스트 정확도: 100%
